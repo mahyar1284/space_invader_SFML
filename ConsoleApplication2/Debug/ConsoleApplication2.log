@@ -1,0 +1,37 @@
+﻿sfml-system-s.lib(String.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-system-s.lib(String.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(VideoMode.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(VideoMode.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(Window.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(Window.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(VideoModeImpl.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(VideoModeImpl.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(GlContext.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(GlContext.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(WindowImpl.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(WindowImpl.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(CursorImpl.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(CursorImpl.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(WglContext.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(WglContext.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(JoystickManager.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(JoystickManager.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(SensorManager.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(SensorManager.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(WindowImplWin32.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(WindowImplWin32.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(WglExtensions.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(WglExtensions.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(Joystick.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(Joystick.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in ConsoleApplication2.obj
+sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in ConsoleApplication2.obj
+sfml-system-s.lib(Time.cpp.obj) : error LNK2005: "bool __cdecl sf::operator!=(class sf::Time,class sf::Time)" (??9sf@@YA_NVTime@0@0@Z) already defined in sfml-system.lib(sfml-system-2.dll)
+sfml-system-s.lib(Time.cpp.obj) : error LNK2005: "class sf::Time __cdecl sf::operator-(class sf::Time,class sf::Time)" (??Gsf@@YA?AVTime@0@V10@0@Z) already defined in sfml-system.lib(sfml-system-2.dll)
+sfml-system-s.lib(Time.cpp.obj) : error LNK2005: "bool __cdecl sf::operator>(class sf::Time,class sf::Time)" (??Osf@@YA_NVTime@0@0@Z) already defined in sfml-system.lib(sfml-system-2.dll)
+sfml-system-s.lib(Time.cpp.obj) : error LNK2005: "class sf::Time __cdecl sf::milliseconds(int)" (?milliseconds@sf@@YA?AVTime@1@H@Z) already defined in sfml-system.lib(sfml-system-2.dll)
+sfml-system-s.lib(Time.cpp.obj) : error LNK2005: "class sf::Time __cdecl sf::seconds(float)" (?seconds@sf@@YA?AVTime@1@M@Z) already defined in sfml-system.lib(sfml-system-2.dll)
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+C:\Users\mahyar\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe : fatal error LNK1120: 2 unresolved externals
