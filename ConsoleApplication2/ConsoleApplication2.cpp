@@ -26,7 +26,7 @@ void main_game(); // main control thread of the game window
 void my_shoot(); // this function (thread) moves our missile with animation
 void invaders_pos(); // this function (thread) moves the enemies position at every 800 milli Secounds
 void enemy_shoot(); // this function (thread) moves the enemies missile with animation just like "my_shoot()" function
-bool is_win(); // this function checks win/lose
+bool is_win(); // this function checks win
 void reset_game(); // this function resets the game by respawning all invaders and reseting starting point of invaders position !
 
 int main()
@@ -64,10 +64,11 @@ void my_shoot()
 {
 	while (1)
 	{
-		if (dont_shoot_for_a_moment) // it makes delay for enemy shooting function and if you starts shooting , for 
-			shoot_the_missile = 0;  //  the first time , the delay for "enemies fist time shooting" will be destroyed
+		
 		if (shoot_the_missile) 
 		{
+			if (dont_shoot_for_a_moment) // it makes delay for enemy shooting function and if you starts shooting , for 
+				shoot_the_missile = 0;  //  the first time , the delay for "enemies fist time shooting" will be destroyed
 			int y = missile.getPosition().y;
 			for (int i = missile.getPosition().y; i > 0; i--)
 			{
